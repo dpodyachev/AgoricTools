@@ -32,10 +32,10 @@
       "icon": "external link",
       "tags": [],
       "targetBlank": true,
-      "title": "Chainode Tech Validator",
+      "title": "Agoric Validator",
       "tooltip": "",
       "type": "link",
-      "url": "https://testnet.explorer.agoric.net/validator/agoricvaloper10unt80nvhxhskyghxyn8hnmkc8c8a7f4pg9zvc"
+      "url": "https://testnet.explorer.agoric.net/validator/agoricvaloper1hjelee724ajkac26z9grrenchg5ynrz2qjp4w8"
     }
   ],
   "panels": [
@@ -55,7 +55,7 @@
       "links": [
         {
           "targetBlank": true,
-          "title": "Website",
+          "title": "Idea from chainode.tech",
           "url": "https://chainode.tech/"
         }
       ],
@@ -164,7 +164,7 @@
     },
     {
       "datasource": null,
-      "description": "Chainode Tech Validator Voting Power",
+      "description": "Node Validator Voting Power",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -2833,8 +2833,8 @@
         "allValue": null,
         "current": {
           "selected": false,
-          "text": "agorictest-7",
-          "value": "agorictest-7"
+          "text": "agorictest-8",
+          "value": "agorictest-8"
         },
         "datasource": "Prometheus",
         "definition": "label_values(tendermint_consensus_height, chain_id)",
